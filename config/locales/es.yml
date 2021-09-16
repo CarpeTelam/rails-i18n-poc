@@ -1,2 +1,4 @@
 es:
-  welcome: '¡Bienvenido!'
+  pages:
+    index:
+      welcome: '¡Bienvenido!'

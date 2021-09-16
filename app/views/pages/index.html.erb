@@ -1,3 +1,15 @@
-<h1><%= translate('welcome', default: 'Not found...') %></h1>
+<h1><%= translate('pages.index.welcome', default: 'Not found...') %></h1>
+
+<p>These also work:</p>
+<ul>
+    <li><%= t('pages.index.welcome') %></li>
+    <li><%= translate 'pages.index.welcome' %>
+    <li><%= translate('index.welcome', scope: :pages) %>
+    <li><%= translate(:welcome, scope: 'pages.index') %>
+    <li><%= translate(:welcome, scope: [:pages, :index]) %>
+</ul>
+
+<p>This one is called lazy lookup and infers the scope from the controller & view:</p>
+<p><%= translate('.welcome') %></p>
 
 <%= I18n.available_locales %>
