@@ -39,6 +39,9 @@ en:
         body: 'Body'
   layouts:
     application:
+      home: 'Home'
+      about: 'About Us'
+      list_posts: 'List Posts'
       new_post: 'New Post'
   pages:
     index:

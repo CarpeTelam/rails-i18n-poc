@@ -8,6 +8,9 @@ es:
         body: 'Cuerpo'
   layouts:
     application:
+      home: 'Hogar'
+      about: 'Sobre Nosotros'
+      list_posts: 'Publicaciones de Lista'
       new_post: 'Nueva Publicación'
   pages:
     index:

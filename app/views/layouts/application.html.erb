@@ -11,8 +11,9 @@
 
   <body>
     <ul>
-      <li><%= link_to 'Index', root_path %></li>
-      <li><%= link_to 'About', :about %></li>
+      <li><%= link_to t('.home'), root_path %></li>
+      <li><%= link_to t('.about'), :about %></li>
+      <li><%= link_to t('.list_posts'), posts_path %></li>
       <li><%= link_to t('.new_post'), new_post_path %></li>
     </ul>
     <p>Locale:</p>
