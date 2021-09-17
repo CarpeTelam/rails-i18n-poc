@@ -30,10 +30,23 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  activerecord:
+    models:
+      post: 'Post'
+    attributes:
+      post:
+        title: 'Title'
+        body: 'Body'
+  layouts:
+    application:
+      new_post: 'New Post'
   pages:
     index:
       welcome: 'Welcome!'
       strong_text1: '<strong>HTML Text (not encoded)</strong>'
-      strong_text2_html: '<strong>HTML Text (encoded)</stron>'
+      strong_text2_html: '<strong>HTML Text (encoded)</strong>'
       strong_text3:
         html: '<strong>HTML Text (encoded)</strong>'
+  posts:
+    back: 'Back'
+    new_post: 'New Post'

@@ -1,4 +1,21 @@
 es:
+  activerecord:
+    models:
+      post: 'Publicación'
+    attributes:
+      post:
+        title: 'Título'
+        body: 'Cuerpo'
+  layouts:
+    application:
+      new_post: 'Nueva Publicación'
   pages:
     index:
       welcome: '¡Bienvenido!'
+      strong_text1: '<strong>Texto HTML (no codificado)</strong>'
+      strong_text2_html: '<strong>Texto HTML (codificado)</strong>'
+      strong_text3:
+        html: '<strong>Texto HTML (codificado)</strong>'
+  posts:
+    back: 'Espalda'
+    new_post: 'Nueva Publicación'
