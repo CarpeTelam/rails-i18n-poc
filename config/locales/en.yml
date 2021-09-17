@@ -32,4 +32,8 @@
 en:
   pages:
     index:
-      welcome: "Welcome!"
+      welcome: 'Welcome!'
+      strong_text1: '<strong>HTML Text (not encoded)</strong>'
+      strong_text2_html: '<strong>HTML Text (encoded)</stron>'
+      strong_text3:
+        html: '<strong>HTML Text (encoded)</strong>'

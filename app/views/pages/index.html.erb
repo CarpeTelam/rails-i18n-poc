@@ -3,13 +3,21 @@
 <p>These also work:</p>
 <ul>
     <li><%= t('pages.index.welcome') %></li>
-    <li><%= translate 'pages.index.welcome' %>
-    <li><%= translate('index.welcome', scope: :pages) %>
-    <li><%= translate(:welcome, scope: 'pages.index') %>
-    <li><%= translate(:welcome, scope: [:pages, :index]) %>
+    <li><%= translate 'pages.index.welcome' %></li>
+    <li><%= t 'pages.index.welcome' %></li>
+    <li><%= translate('index.welcome', scope: :pages) %></li>
+    <li><%= translate(:welcome, scope: 'pages.index') %></li>
+    <li><%= translate(:welcome, scope: [:pages, :index]) %></li>
 </ul>
 
 <p>This one is called lazy lookup and infers the scope from the controller & view:</p>
 <p><%= translate('.welcome') %></p>
+
+<p>HTML Text:</p>
+<ul>
+    <li><%= t('.strong_text1') %></li>
+    <li><%= t('.strong_text2_html') %></li>
+    <li><%= t('.strong_text3.html') %></li>
+</ul>
 
 <%= I18n.available_locales %>
