@@ -28,5 +28,12 @@
     <li><%= number_to_human_size 1234567890 %></li>
 </ul>
 
+<p>Pluralization:</p>
+<ul>
+    <li><%= t('.count', count: 0) %></li>
+    <li><%= t('.count', count: 1) %></li>
+    <li><%= t('.count', count: 100) %></li>
+</ul>
+
 <p><%= I18n.available_locales %></p>
 <p><%= I18n.locale %></p>

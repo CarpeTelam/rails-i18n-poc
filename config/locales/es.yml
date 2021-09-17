@@ -19,6 +19,10 @@ es:
       strong_text2_html: '<strong>Texto HTML (codificado)</strong>'
       strong_text3:
         html: '<strong>Texto HTML (codificado)</strong>'
+      count:
+        zero: 'No hay publicaciones'
+        one: '%{count} publicación'
+        other: '%{count} publicaciones'
   posts:
     back: 'Espalda'
     new_post: 'Nueva Publicación'

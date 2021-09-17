@@ -50,6 +50,10 @@ en:
       strong_text2_html: '<strong>HTML Text (encoded)</strong>'
       strong_text3:
         html: '<strong>HTML Text (encoded)</strong>'
+      count:
+        zero: 'No posts'
+        one: '%{count} post'
+        other: '%{count} posts'
   posts:
     back: 'Back'
     new_post: 'New Post'
