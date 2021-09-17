@@ -18,8 +18,11 @@
     </ul>
     <p>Locale:</p>
     <ul>
-      <li><%= link_to 'English', root_path(locale: :en) %></li>
-      <li><%= link_to 'Español', root_path(locale: :es) %></li>
+      <li><%= link_to 'en', root_path(locale: :en) %></li>
+      <li><%= link_to 'en-US', root_path(locale: 'en-US') %></li>
+      <li><%= link_to 'en-GB', root_path(locale: 'en-GB') %></li>
+      <li><%= link_to 'es', root_path(locale: :es) %></li>
+      <li><%= link_to 'es-CR', root_path(locale: 'es-CR') %></li>
     </ul>
     <%= yield %>
   </body>

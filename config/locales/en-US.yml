@@ -29,7 +29,7 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+en-US:
   activerecord:
     models:
       post: 'Post'
@@ -45,7 +45,7 @@ en:
       new_post: 'New Post'
   pages:
     index:
-      welcome: 'Welcome! (en)'
+      welcome: 'Welcome! (en-US)'
       strong_text1: '<strong>HTML Text (not encoded)</strong>'
       strong_text2_html: '<strong>HTML Text (encoded)</strong>'
       strong_text3:

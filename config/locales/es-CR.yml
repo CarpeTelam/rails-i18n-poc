@@ -1,4 +1,4 @@
-es:
+es-CR:
   activerecord:
     models:
       post: 'Publicación'
@@ -14,7 +14,7 @@ es:
       new_post: 'Nueva Publicación'
   pages:
     index:
-      welcome: '¡Bienvenido! (es)'
+      welcome: '¡Bienvenido! (es-CR)'
       strong_text1: '<strong>Texto HTML (no codificado)</strong>'
       strong_text2_html: '<strong>Texto HTML (codificado)</strong>'
       strong_text3:
