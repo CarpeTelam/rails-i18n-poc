@@ -20,5 +20,13 @@
     <li><%= t('.strong_text3.html') %></li>
 </ul>
 
+<p>Numbers:</p>
+<ul>
+    <li><%= number_to_currency 1234567890.50 %></li>
+    <li><%= number_to_human 1234567890 %></li>
+    <li><%= number_to_phone 1234567890 %></li>
+    <li><%= number_to_human_size 1234567890 %></li>
+</ul>
+
 <p><%= I18n.available_locales %></p>
 <p><%= I18n.locale %></p>
