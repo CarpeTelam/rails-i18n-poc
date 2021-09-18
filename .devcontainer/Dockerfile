@@ -17,6 +17,12 @@ RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSI
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
+RUN mkdir -p /usr/local/phrase/bin && \
+    sudo wget -O /usr/local/phrase/bin/phrase https://github.com/phrase/phrase-cli/releases/download/2.3.0/phrase_linux_amd64 && \
+    sudo chmod -R +x /usr/local/phrase
+
+ENV PATH="${PATH}:/usr/local/phrase/bin"
+
 # [Optional] Uncomment this line to install additional gems.
 # RUN gem install <your-gem-names-here>
 
