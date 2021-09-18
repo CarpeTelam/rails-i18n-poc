@@ -5,8 +5,14 @@ phrase:
     - file: ./config/locales/<locale_name>.yml
       params:
         file_format: yml
+    - file: ./public/locales/<locale_name>.json
+      params:
+        file_format: i18next
   pull:
     targets:
     - file: ./config/locales/<locale_name>.yml
       params:
         file_format: yml
+    - file: ./public/locales/<locale_name>.json
+      params:
+        file_format: i18next
