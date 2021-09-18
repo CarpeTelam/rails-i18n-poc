@@ -1,0 +1,37 @@
+{
+  "activerecord": {
+    "attributes": {
+      "post": {
+        "body": "Cuerpo",
+        "title": "Título"
+      }
+    },
+    "models": {
+      "post": "Publicación"
+    }
+  },
+  "layouts": {
+    "application": {
+      "about": "Sobre Nosotros",
+      "home": "Hogar",
+      "list_posts": "Publicaciones de Lista",
+      "new_post": "Nueva Publicación"
+    }
+  },
+  "pages": {
+    "index": {
+      "strong_text1": "<strong>Texto HTML (no codificado)</strong>",
+      "strong_text2_html": "<strong>Texto HTML (codificado)</strong>",
+      "strong_text3": {
+        "html": "<strong>Texto HTML (codificado)</strong>"
+      },
+      "welcome": "¡Bienvenido! (es)",
+      "count": "%{count} publicación",
+      "count_plural": "%{count} publicaciones"
+    }
+  },
+  "posts": {
+    "back": "Espalda",
+    "new_post": "Nueva Publicación"
+  }
+}

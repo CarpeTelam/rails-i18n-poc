@@ -1,0 +1,37 @@
+{
+  "activerecord": {
+    "attributes": {
+      "post": {
+        "body": "Body",
+        "title": "Title"
+      }
+    },
+    "models": {
+      "post": "Post"
+    }
+  },
+  "layouts": {
+    "application": {
+      "about": "About Us",
+      "home": "Home",
+      "list_posts": "List Posts",
+      "new_post": "New Post"
+    }
+  },
+  "pages": {
+    "index": {
+      "strong_text1": "<strong>HTML Text (not encoded)</strong>",
+      "strong_text2_html": "<strong>HTML Text (encoded)</strong>",
+      "strong_text3": {
+        "html": "<strong>HTML Text (encoded)</strong>"
+      },
+      "welcome": "Welcome! (en-US)",
+      "count": "%{count} post",
+      "count_plural": "%{count} posts"
+    }
+  },
+  "posts": {
+    "back": "Back",
+    "new_post": "New Post"
+  }
+}
