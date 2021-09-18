@@ -19,6 +19,8 @@ en:
         one: "%{count} post"
         other: "%{count} posts"
         zero: No posts
+      from_config_locales_en_yml: From config/locales/en.yml
+      from_public_locales_en_json: From public/locales/en.json
       strong_text1: "<strong>HTML Text (not encoded)</strong>"
       strong_text2_html: "<strong>HTML Text (encoded)</strong>"
       strong_text3:
