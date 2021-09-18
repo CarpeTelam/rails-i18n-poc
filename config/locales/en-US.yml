@@ -1,28 +1,29 @@
+---
 en-US:
   activerecord:
-    models:
-      post: 'Post'
     attributes:
       post:
-        title: 'Title'
-        body: 'Body'
+        body: Body
+        title: Title
+    models:
+      post: Post
   layouts:
     application:
-      home: 'Home'
-      about: 'About Us'
-      list_posts: 'List Posts'
-      new_post: 'New Post'
+      about: About Us
+      home: Home
+      list_posts: List Posts
+      new_post: New Post
   pages:
     index:
-      welcome: 'Welcome! (en-US)'
-      strong_text1: '<strong>HTML Text (not encoded)</strong>'
-      strong_text2_html: '<strong>HTML Text (encoded)</strong>'
-      strong_text3:
-        html: '<strong>HTML Text (encoded)</strong>'
       count:
-        zero: 'No posts'
-        one: '%{count} post'
-        other: '%{count} posts'
+        one: "%{count} post"
+        other: "%{count} posts"
+        zero: No posts
+      strong_text1: "<strong>HTML Text (not encoded)</strong>"
+      strong_text2_html: "<strong>HTML Text (encoded)</strong>"
+      strong_text3:
+        html: "<strong>HTML Text (encoded)</strong>"
+      welcome: Welcome! (en-US)
   posts:
-    back: 'Back'
-    new_post: 'New Post'
+    back: Back
+    new_post: New Post

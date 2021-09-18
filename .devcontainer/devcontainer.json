@@ -10,13 +10,17 @@
 			"NODE_VERSION": "lts/*"
 		}
 	},
+	"runArgs": [
+		"--env-file", "${localWorkspaceFolder}/.devcontainer/.env"
+	], 
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"rebornix.Ruby"
+		"rebornix.Ruby",
+		"mikestead.dotenv"
 	],
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

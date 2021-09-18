@@ -1,28 +1,29 @@
+---
 es:
   activerecord:
-    models:
-      post: 'Publicación'
     attributes:
       post:
-        title: 'Título'
-        body: 'Cuerpo'
+        body: Cuerpo
+        title: Título
+    models:
+      post: Publicación
   layouts:
     application:
-      home: 'Hogar'
-      about: 'Sobre Nosotros'
-      list_posts: 'Publicaciones de Lista'
-      new_post: 'Nueva Publicación'
+      about: Sobre Nosotros
+      home: Hogar
+      list_posts: Publicaciones de Lista
+      new_post: Nueva Publicación
   pages:
     index:
-      welcome: '¡Bienvenido! (es)'
-      strong_text1: '<strong>Texto HTML (no codificado)</strong>'
-      strong_text2_html: '<strong>Texto HTML (codificado)</strong>'
-      strong_text3:
-        html: '<strong>Texto HTML (codificado)</strong>'
       count:
-        zero: 'No hay publicaciones'
-        one: '%{count} publicación'
-        other: '%{count} publicaciones'
+        one: "%{count} publicación"
+        other: "%{count} publicaciones"
+        zero: No hay publicaciones
+      strong_text1: "<strong>Texto HTML (no codificado)</strong>"
+      strong_text2_html: "<strong>Texto HTML (codificado)</strong>"
+      strong_text3:
+        html: "<strong>Texto HTML (codificado)</strong>"
+      welcome: "¡Bienvenido! (es)"
   posts:
-    back: 'Espalda'
-    new_post: 'Nueva Publicación'
+    back: Espalda
+    new_post: Nueva Publicación
